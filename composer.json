@@ -1,0 +1,14 @@
+{
+  "require": {
+    "phpbench/phpbench": "1.2.6",
+    "enjoys/dotenv": "3.0.0-beta3",
+    "vlucas/phpdotenv": "v5.4.1",
+    "symfony/dotenv": "v5.4.5"
+  },
+  "autoload": {
+    "Bech\\DotEnv\\": "bench/"
+  },
+  "scripts": {
+    "bench": "@php ./vendor/bin/phpbench run bench --report=default --retry-threshold=5 --revs=1000 --iterations=1"
+  }
+}
