@@ -9,6 +9,9 @@
     "Bech\\DotEnv\\": "bench/"
   },
   "scripts": {
-    "bench": "@php ./vendor/bin/phpbench run bench --report=default --retry-threshold=5 --revs=1000 --iterations=1"
+    "bench": [
+      "git config --global --add safe.directory /opt/project",
+      "XDEBUG_MODE=off ./vendor/bin/phpbench run bench --report=aggregate --retry-threshold=5 --revs=1000 --iterations=3"
+    ]
   }
 }
