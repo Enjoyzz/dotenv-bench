@@ -1,7 +1,7 @@
 {
   "require": {
     "phpbench/phpbench": "1.2.6",
-    "enjoys/dotenv": "3.0.0-beta3",
+    "enjoys/dotenv": "3.0.3",
     "vlucas/phpdotenv": "v5.4.1",
     "symfony/dotenv": "v5.4.5"
   },

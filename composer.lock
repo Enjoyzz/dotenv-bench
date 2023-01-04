@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63a391ec9b2c8a879423599e8d59f492",
+    "content-hash": "9fce1221bb8aae5c903a1e3d1e83ded1",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -205,16 +205,16 @@
         },
         {
             "name": "enjoys/dotenv",
-            "version": "3.0.0-beta3",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Enjoyzz/dotenv.git",
-                "reference": "a963b70df698d899b06e7c57e638bbfc07c80694"
+                "reference": "d0a82982fc1f149f9751cc3c5d4c1c92382ef901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Enjoyzz/dotenv/zipball/a963b70df698d899b06e7c57e638bbfc07c80694",
-                "reference": "a963b70df698d899b06e7c57e638bbfc07c80694",
+                "url": "https://api.github.com/repos/Enjoyzz/dotenv/zipball/d0a82982fc1f149f9751cc3c5d4c1c92382ef901",
+                "reference": "d0a82982fc1f149f9751cc3c5d4c1c92382ef901",
                 "shasum": ""
             },
             "require": {
@@ -245,9 +245,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Enjoyzz/dotenv/issues",
-                "source": "https://github.com/Enjoyzz/dotenv/tree/3.0.0-beta3"
+                "source": "https://github.com/Enjoyzz/dotenv/tree/3.0.3"
             },
-            "time": "2022-09-08T16:33:02+00:00"
+            "time": "2023-01-04T19:10:37+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -2050,9 +2050,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "enjoys/dotenv": 10
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
